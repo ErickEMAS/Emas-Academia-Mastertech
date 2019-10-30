@@ -1,0 +1,23 @@
+#navbar{
+    background-color: aquamarine;
+    text-transform: uppercase;
+}
+
+.line{
+    color: rgb(68, 53, 53);
+}
+
+
+
+header{
+    background-color: #ff2400;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style: none;
+}
