@@ -1,0 +1,27 @@
+.div-1{
+    background-color: rgb(66, 170, 189);
+    margin: 20px auto;
+    text-align: center;
+    padding-top: 70px;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 300px;
+    height: 100px;
+}
+
+.div-2{
+    background-color: rgb(88, 184, 33);
+    margin: 20px auto;
+    text-align: center;
+    padding-top: 70px;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 300px;
+    height: 100px;
+}
+
+
+section{
+    background-color: rgb(156, 50, 50);
+    padding: 40px;
+}
