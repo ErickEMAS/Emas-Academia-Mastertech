@@ -1,3 +1,17 @@
+
+body{
+    margin: 0;
+}
+
+.section-imgs{
+    background-color: rgb(156, 50, 50);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
 .div-1{
     background-color: rgb(66, 170, 189);
     margin: 20px auto;
@@ -20,8 +34,20 @@
     height: 100px;
 }
 
+.img{
+    display: flex;
+    align-items: center;
+}
 
-section{
-    background-color: rgb(156, 50, 50);
-    padding: 40px;
+.img-1{
+    height: 100%;
+    order: -1;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.img-2{
+    height: 100%;
+    margin: 20px auto;
+    align-items: center;
 }
