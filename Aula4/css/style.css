@@ -57,6 +57,7 @@ header{
     width: 100%;
     height: 500px;
     background-image: url(../img/telaprimeira-0.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -84,9 +85,25 @@ section{
     text-transform: uppercase;
 }
 
-.Telas-Quebradas img{
-    width: 80px;
-    height: 80px;
+#telas-quebradas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    grid-area: 'section';
+    padding: 2%;
+}
+
+#telas-quebradas div{
+    width: 15vw;
+    height: 10em;
+}
+
+.quebradas{
+    width: 100%;
+    height: 100%;
+    
 }
 
 @media (max-width: 630px){
@@ -106,4 +123,18 @@ section{
         background-image: url(../img/telaprimeira-1.jpg);
         height: 480px;
     }
+
+    #telas-quebradas{
+        flex-direction: column;
+    }
+
+    #telas-quebradas div{
+        margin: 5%;
+    }
+
+    #telas-quebradas div{
+        width: 25vw;
+        height: 10em;
+    }
+
 }
