@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <title>Adivinhador de Número</title>
+</head>
+<body>
+    <header>
+        <h1>Adivinhador de Número</h1>
+    </header>
+
+    <main>
+        <div class="content">
+            <div id="txt">
+                <h3 id="frase">Pense em um número de 1 a 50, e aperte em Ok para começar</h3>
+            </div>
+            <div id="sim-nao">
+                <button id="sim" value="1" onclick="sim()">Sim</button>
+                <button id="nao" value="2" onclick="nao()">Não</button>
+            </div>
+            <button id="ok" onclick="addSimNao()">Ok</button>
+        </div>
+    </main>
+
+</body>
+</html>
