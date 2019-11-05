@@ -1,0 +1,54 @@
+Algoritomo
+
+    copas: = "coração vermelho";
+    paus: "arvore peuqena e preta";
+    ouros: "losangulo preto"
+    espadas: "coração invertido com um triangulo em baixo e preto";
+
+    numeroCartaDesejada = 3;
+    corCartaDesejada = "vermelho";
+    simboloCartaDesejada = copas;
+
+    cartaEncontrada = false;
+
+    enquanto cartaEncontrada for igual a false
+        Se tiver carta no baralho
+            Pegue uma carta no baralho e vire sobre a mesa.
+
+            Se numeroCartaVirada for igual a numeroCartaDesejada e corCartaVirada for igual a corCartaDesejada e simboloCartaVirada for igual a simboloCartaDesejada
+                cartaEncontrada = true;
+            senão
+                descarte a carta virada
+            fimse
+        fimse
+        escreva ("Carta não encontrada! Não chore")
+    fimenquanto
+    escreva ("Carta encontrada!")
+fimalgorotimo
+
+algoritmo
+    numeroInicial = 1;
+    numeroFinal = 50;
+
+    palpite = (numeroInicial + numeroFinal) /2;
+
+    resposta = não;
+
+    enquanto resposta for igual a não
+        pergute ("O numero pensado é igual a " palpite"?")
+
+        Se numeroPensado for igual a palpite
+            resposta = sim;
+        senão
+            pergunte ("O numero é maior que " palpite "?")
+            
+            se numeroPensado for maior que palpite
+                numeroInicial = palpite;
+            senão
+                numeroFinal = palpite;
+            fimse
+        fimse
+    fimenquanto
+
+    escreva ("O numero pensado é" palpite ".")
+fimalgoritmo
