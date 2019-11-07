@@ -24,8 +24,8 @@ for(let i = 0; i < quantidade; i++){
     console.log(escada);
 
 
-    var node = document.createElement("p");                 
-    var textnode = document.createTextNode(escada);         
-    node.appendChild(textnode);                             
-    document.querySelector("#escada").appendChild(node); 
+    var criar = document.createElement("p");                 
+    var novoTexto = document.createTextNode(escada);         
+    criar.appendChild(novoTexto);                             
+    document.querySelector("#escada").appendChild(criar); 
 }
