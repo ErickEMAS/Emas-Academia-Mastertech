@@ -14,11 +14,18 @@ while(i > meNome.length - meNome.length + -1){
     i--;
 }*/
 
-let material = "#"//prompt("Escolha o material da escada");
-let quantidade = 5//Number(prompt("Escolha a quantidade de dregaus"));
+var material = prompt("Escolha o material da escada");
+var quantidade = Number(prompt("Escolha a quantidade de dregaus"));
+var escada = "";
 
 for(let i = 0; i < quantidade; i++){
-    let escada = ["a", "b"];
-    escada.push(material);
-    console.log(escada[]);
+    escada += material; 
+
+    console.log(escada);
+
+
+    var node = document.createElement("p");                 
+    var textnode = document.createTextNode(escada);         
+    node.appendChild(textnode);                             
+    document.querySelector("#escada").appendChild(node); 
 }
