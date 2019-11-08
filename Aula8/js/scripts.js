@@ -12,7 +12,7 @@ console.log(" ");
 while(i > meNome.length - meNome.length + -1){
     console.log(meNome[i]);
     i--;
-}*/
+}*/ 
 
 var material = prompt("Escolha o material da escada");
 var quantidade = Number(prompt("Escolha a quantidade de dregaus"));
