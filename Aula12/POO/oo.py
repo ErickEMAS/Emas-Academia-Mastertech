@@ -8,16 +8,17 @@ class Mamiferos():
         self.rabo = rabo
         self.cor = cor
 
-    def comer():
+    def comer(self):
         print("Já comi")
 
-    def dormir():
+    def dormir(self):
         print("Dormir")
 
-    def fazer_som():
+    def fazer_som(self):
         print("AHHHHHHHH!")
 
 doguinho = Mamiferos("True", "Dog", "True", "Caramelo")
 gatihno =  Mamiferos("curto", "Cat", "True", "preto")
 
+doguinho.fazer_som()
 print(doguinho.cor)
