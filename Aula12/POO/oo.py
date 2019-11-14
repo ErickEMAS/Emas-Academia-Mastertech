@@ -17,8 +17,24 @@ class Mamiferos():
     def fazer_som(self):
         print("AHHHHHHHH!")
 
+class Gatinho(Mamiferos):
+    def __init__(self, pelo, especie, rabo, cor, bigode):
+        super().__init__(pelo, especie, rabo, cor)
+        self.bigode = bigode
+
+    def fazer_som(self):
+        print("Te Quiero")
+
 doguinho = Mamiferos("True", "Dog", "True", "Caramelo")
 gatihno =  Mamiferos("curto", "Cat", "True", "preto")
+catinho = Gatinho("Curto", "Tanto faz", True, "Purple", False)
 
 doguinho.fazer_som()
 print(doguinho.cor)
+print("")
+
+print(catinho.cor)
+print(catinho.especie)
+
+catinho.fazer_som()
+catinho.comer()
